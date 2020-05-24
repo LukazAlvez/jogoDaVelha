@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: 'Trebuchet MS',Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+#placar{
+    height:300px;
+    width: 800px;
+    background-color: #e6e6e6;
+    position: absolute;
+    visibility: hidden;
+    left: 50%;
+    padding-top: 40px;
+    margin-left: -400px;
+    
+}
+
+#placar p{
+    font-size: 60px;
+    text-align: center;
+}
+#placar #bntReiniciar{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    margin: 0px auto;
+    margin-top: 50px;
+    background-color: #005b77;
+    cursor: pointer;
+}
+
+#placar #bntReiniciar:hover{
+    background-color: rgb(191, 214, 255);
+}
+
+#areaCabecalho{
+    background-color: #005b77;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#nomeJogador{
+    background-color: white;
+    font-size: large;
+    padding: 10px;
+    border: 0px;
+}
+.indicador{
+    width: 260px;
+    margin: 0 auto;
+}
+
+#tagname{
+    float: left;
+}
+
+#tagimg{
+    margin-left: 10px;
+}
+.tabuleiro{
+    width: 260px;
+    padding: 2px;
+    padding-top: 15px;
+    margin: 0 auto;
+    -webkit-touch-callout: none;  
+    -webkit-user-select: none;    
+    -khtml-user-select: none;    
+    -moz-user-select: none;       
+    -ms-user-select: none;    
+    user-select: none;
+}
+.espaco{
+    height: 70px;
+    width: 80px;
+    border: 3px solid black;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.espaco img{
+    height: 60px;
+}
+
+#a1, #a2, #a3{
+    border-top: 3px solid #e6e6e6;
+} 
+
+#a1, #b1, #c1{
+    border-left: 3px solid #e6e6e6;
+} 
+
+#c1, #c2, #c3{
+    border-bottom: 3px solid #e6e6e6;
+} 
+
+#a3, #b3, #c3{
+    border-right: 3px solid #e6e6e6;
+} 

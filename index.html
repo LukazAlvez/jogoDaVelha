@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="areaCabecalho">
+        <H1>Jogo da velha</H1> 
+    </div>
+
+    <div id="nomeJogador">
+        <div class="indicador">
+            <p id="tagname">Vez do jogador: </p>
+            <img id="tagimg" src="" height="25px" alt="">
+        </div>
+    </div>
+   
+    <div id="placar">
+        <p id="texto">Jogado X ganhou!!!</p>
+        <p id="bntReiniciar" onclick="reiniciar()">JOGAR NOVAMENTE</p>
+    </div>
+
+    <div class="tabuleiro">
+        <div id="a1" class="espaco" onclick="clicou(this.id)" ></div>
+        <div id="a2" class="espaco" onclick="clicou(this.id)" ></div>
+        <div id="a3" class="espaco" onclick="clicou(this.id)" ></div>
+
+        <div id="b1" class="espaco" onclick="clicou(this.id)" ></div>
+        <div id="b2" class="espaco" onclick="clicou(this.id)" ></div>
+        <div id="b3" class="espaco" onclick="clicou(this.id)" ></div>
+
+        <div id="c1" class="espaco" onclick="clicou(this.id)" ></div>
+        <div id="c2" class="espaco" onclick="clicou(this.id)" ></div>
+        <div id="c3" class="espaco" onclick="clicou(this.id)" ></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
